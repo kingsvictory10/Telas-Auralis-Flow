@@ -15,11 +15,7 @@ export default function ThankYouScreen({ onRestart }) {
           {/* Check icon */}
           <div
             className="mx-auto mb-6 flex items-center justify-center rounded-full"
-            style={{
-              width: "72px",
-              height: "72px",
-              backgroundColor: "#DCFCE7",
-            }}
+            style={{ width: "72px", height: "72px", backgroundColor: "#DCFCE7" }}
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -46,7 +42,7 @@ export default function ThankYouScreen({ onRestart }) {
             empresa a cuidar melhor de você e de todos os colaboradores.
           </p>
 
-          {/* Next check-in */}
+          {/* Next check-in pill */}
           <div
             className="inline-flex items-center gap-2 rounded-full px-4 py-2 mb-8 text-xs font-medium text-gray-500"
             style={{ backgroundColor: "#F0F4FF", border: "1px solid #e0eaff" }}
@@ -67,7 +63,7 @@ export default function ThankYouScreen({ onRestart }) {
             Próximo check-in: amanhã às 08h00
           </div>
 
-          {/* CTA */}
+          {/* CTA button */}
           <button
             type="button"
             onClick={onRestart}
@@ -78,6 +74,18 @@ export default function ThankYouScreen({ onRestart }) {
           >
             Voltar ao início
           </button>
+
+          {/* Site link — fora do botão */}
+          <div className="mt-4">
+            <a
+              href="https://telas-auralis-flow.vercel.app"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-xs text-gray-400 hover:text-gray-600 transition-colors"
+            >
+              telas-auralis-flow.vercel.app
+            </a>
+          </div>
         </div>
       </div>
     </div>
