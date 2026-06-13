@@ -1,6 +1,6 @@
-PRD — Auralis Flow (Protótipo Hackathon)
+PRD — Auralys Flow (Protótipo Hackathon)
 Contexto do produto
-Auralis Flow é uma plataforma B2B de monitoramento de bem-estar ocupacional que permite às empresas avaliarem a saúde mental de seus colaboradores de forma contínua, em conformidade com os fatores de risco psicossociais da NR-1 (Portaria MTE nº 1.419/2024). O produto é vendido para empresas e indústrias; o colaborador é o usuário final do app.
+Auralys Flow é uma plataforma B2B de monitoramento de bem-estar ocupacional que permite às empresas avaliarem a saúde mental de seus colaboradores de forma contínua, em conformidade com os fatores de risco psicossociais da NR-1 (Portaria MTE nº 1.419/2024). O produto é vendido para empresas e indústrias; o colaborador é o usuário final do app.
 Objetivo do protótipo
 Construir 3 telas estáticas com dados mockados para apresentação em hackathon. Sem backend, sem banco de dados. Toda interação usa estado local (React useState).
 Stack
@@ -9,7 +9,7 @@ Identidade visual: cor primária #1A73E8 (azul confiança) + #F0F4FF (fundo suav
 
 TELA 1 — Login
 
-Logo + nome "Auralis Flow" centralizado
+Logo + nome "Auralys Flow" centralizado
 Subtítulo: "Bem-estar no trabalho começa com você"
 Campo: E-mail (placeholder: colaborador@empresa.com)
 Campo: Senha (placeholder: ••••••••)

@@ -39,7 +39,7 @@ export default function ManagerLoginScreen({ onLogin, onBack }) {
             className="text-4xl font-bold tracking-tight"
             style={{ color: "#1A73E8" }}
           >
-            Auralis Flow
+            Auralys Flow
           </h1>
           <div className="text-3xl mt-2"></div>
         </div>

@@ -79,7 +79,7 @@ export default function DashboardScreen({ onLogout }) {
         style={{ borderBottom: "1px solid #e0eaff", boxShadow: "0 1px 4px rgba(26,115,232,0.06)" }}
       >
         <div className="flex items-center gap-2">
-          <span className="text-lg font-bold" style={{ color: "#1A73E8" }}>Auralis Flow</span>
+          <span className="text-lg font-bold" style={{ color: "#1A73E8" }}>Auralys Flow</span>
           <span className="text-gray-300 hidden sm:inline">|</span>
           <span className="text-xs text-gray-500 hidden sm:inline">Painel do Gestor</span>
         </div>
